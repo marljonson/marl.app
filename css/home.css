@@ -26,7 +26,7 @@
     padding: 20vh 20vh;
 
     opacity: 0;
-    animation: fadeIn 1.25s ease-in-out forwards;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 .solid {
@@ -50,7 +50,6 @@
     flex-direction: column;
     justify-content: space-between;
     width: 52.5vw;
-    height: fit-content;
 }
 
 .title {

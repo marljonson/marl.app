@@ -33,12 +33,20 @@
     height: 60vh;
 }
 
-.liquid {
+.liquid-home {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 52.5vw;
     height: 60vh;
+}
+
+.liquid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 52.5vw;
+    height: fit-content;
 }
 
 .title {

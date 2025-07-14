@@ -15,6 +15,10 @@
     overflow: hidden;
 }
 
+*:hover {
+    cursor: default;
+}
+
 .home {
     display: flex;
     flex-direction: row;
@@ -70,4 +74,12 @@
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+br {
+    user-select: none;
 }

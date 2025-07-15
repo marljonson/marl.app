@@ -10,7 +10,7 @@
     margin: 0;
     background-color: palevioletred;
     font-family: "Geist", sans-serif;
-    font-size: 1.305rem;
+    font-size: 1.125rem;
     color: white;
     overflow: hidden;
 }
@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 37.5vw;
+    width: 40vw;
     height: 60vh;
 }
 
@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 52.5vw;
+    width: 50vw;
     height: 60vh;
 }
 
@@ -49,7 +49,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 52.5vw;
+    width: 50vw;
+    height: fit-content;
 }
 
 .title {

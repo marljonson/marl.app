@@ -55,7 +55,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
     flex-direction: column;
     justify-content: space-between;
     width: 50vw;
-    height: fit-content;
+    height: 60vh;
 }
 
 .liquid {
@@ -112,4 +112,16 @@ br {
 
 b {
     font-size: 1.1em;
+}
+
+.course {
+    font-size: 0.875em;
+}
+
+th {
+    font-weight: 300;
+}
+
+li {
+    font-size: 0.875em;
 }

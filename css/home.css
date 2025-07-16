@@ -12,11 +12,24 @@
     font-family: "Geist", sans-serif;
     font-size: 1.125rem;
     color: white;
-    overflow: hidden;
 }
 
 *:hover {
     cursor: default;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+body {
+    overflow-y: auto;
+    -ms-overflow-style: none;   /* IE, Edge */
+    scrollbar-width: none;      /* Firefox */
+}
+
+body::-webkit-scrollbar, body::-webkit-scrollbar-button {
+    display: none;              /* Chrome, Safari */
 }
 
 .home {
@@ -42,7 +55,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 50vw;
-    height: 60vh;
+    height: fit-content;
 }
 
 .liquid {
@@ -69,6 +82,12 @@
 
 .navbar > * {
     padding-bottom: 0.25rem;
+    border-bottom: 2px dashed #F0C8D6;
+    transition: border-bottom-color 0.25s ease;
+
+}
+
+.navbar > *:hover {
     border-bottom: 2px dashed white;
 }
 
@@ -82,4 +101,15 @@ a:hover {
 
 br {
     user-select: none;
+}
+
+.teacher {
+    font-size: 0.85em;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+    color: gainsboro;
+}
+
+b {
+    font-size: 1.1em;
 }

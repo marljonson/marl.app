@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@275&display=swap");
 
 @keyframes fadeIn {
     to {
@@ -8,7 +8,7 @@
 
 * {
     margin: 0;
-    background-color: palevioletred;
+    background-color: rgb(125, 96, 96); /* rosy brown */
     font-family: "Geist", sans-serif;
     font-size: 1.125rem;
     color: white;
@@ -39,7 +39,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
     padding: 20vh 20vh;
 
     opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
+    animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 .solid {

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@275&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@325&display=swap");
 
 @keyframes fadeIn {
     to {
@@ -8,10 +8,10 @@
 
 * {
     margin: 0;
-    background-color: rgb(100, 71, 71); /* rosy brown */
+    background-color: #82add5;
     font-family: "Geist", sans-serif;
-    font-size: 1.125rem;
-    color: white;
+    font-size: 1.2625rem;
+    color: #f7f4f0;
 }
 
 *:hover {
@@ -82,13 +82,12 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
 
 .navbar > * {
     padding-bottom: 0.25rem;
-    border-bottom: 2px dashed #F0C8D6;
+    border-bottom: 2px dashed #f7f4f0c2;
     transition: border-bottom-color 0.25s ease;
-
 }
 
 .navbar > *:hover {
-    border-bottom: 2px dashed white;
+    border-bottom: 2px dashed #f7f4f0;
 }
 
 a {

@@ -46,7 +46,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40vw;
+    width: 37.5vw;
     height: 60vh;
 }
 
@@ -54,7 +54,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50vw;
+    width: 52.5vw;
     height: 60vh;
 }
 
@@ -62,7 +62,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50vw;
+    width: 52.5vw;
     height: fit-content;
 }
 
@@ -92,6 +92,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
 
 a {
     text-decoration: none;
+    font-size: 0.8em;
 }
 
 a:hover {
